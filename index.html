@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -12,29 +12,47 @@
 </head>
 
 <body>
-<!--About section-->
-    <div class="about">
-        <div class="about-all">
+    <!--Header section-->
+    <header>
+        <div class="logo">
+            <div class="logo-photo"></div>
+            <h2>Michael</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a class="nav-a" href="#about-me">I AM</a></li>
+                <li><a class="nav-a" href="#">MY EXPERIENCE</a></li>
+                <li><a class="nav-a" href="#">EDUCATION</a></li>
+                <li><a class="nav-a" href="#">RESUME</a></li>
+                <li><a class="nav-a" href="#portfolio">PORTFOLIO</a></li>
+                <li><a class="nav-a" href="#contact-me">CONTACTS</a></li>
+            </ul>
+        </nav>
+        <div class="nav-bar"><i class="fa-solid fa-bars abouts"></i></div>
+    </header>
+    <!--About section-->
+    <div class="about" id="about-me">
+        <div class="about-all wrap">
             <div class="about-left">
                 <div class="name-div abouts">
                     <div class="user-icon">
                         <i class="fa-regular fa-user"></i>
-                        
+
                     </div>
                     <h2 class="hi-div">Hi, I am <span class="michael">Michael</span></h2>
-                        <p>Web designer and developer working for envato.com in Paris, France.</p>
-                        
-                        <p><i class="fa-regular fa-file mail"></i> Web Designer & Developer</p>
-                        <p><i class="fa-regular fa-envelope mail"></i> michael@domain.com</p>
-                        <p><i class="fa-solid fa-location-dot mail"></i> Kingston, New York 12401</p>
+                    <p>Web designer and developer working for envato.com in Paris, France.</p>
+
+                    <p><i class="fa-regular fa-file mail"></i> Web Designer & Developer</p>
+                    <p><i class="fa-regular fa-envelope mail"></i> michael@domain.com</p>
+                    <p><i class="fa-solid fa-location-dot mail"></i> Kingston, New York 12401</p>
                 </div>
-                <div class="cv-div abouts">
+                <div class="cv-div abouts wrap">
                     <p class="vitae">Download my curriculum vitae:</p>
                     <div class="download-cv cv-button abouts colourful">
                         DOWNLOAD CV
                     </div>
                     <div class="contact-me cv-button abouts colourful">
-                        CONTACT ME
+                        <a class="contact-a" href="#contact-me">CONTACT ME</a>
                     </div>
                 </div>
             </div>
@@ -45,64 +63,80 @@
             </div>
         </div>
     </div>
-                                                <hr>
-<!--Contact Section-->
-<div class="contact">
-    <p>Contact</p>
-    <h2>Contact With Me</h2>
-    <div class="contact-all">
-        <div class="contact-left abouts">
-            <div class="contact-image">
-                <div class="c-img img-zoom"></div>
-            </div>
-            <div class="title-area">
-                <h4 class="title">Nevine Acotanza</h4>
-                <p>Chief Operating Officer</p>
-            </div>
-            <div class="description">
-                <p>I am available for freelance work. Connect with me via and call in to my account.</p>
-                <p>Phone: <a href="#">+012 345 678 90</a></p>
-                <p>Email: <a href="#">admin@example.com</a></p>
-            </div>
-            <p>FIND WITH ME</p>
-            <div class="social-area">
-                <div class="social-icons abouts colourful"><i class="fa-brands fa-twitter"></i></div>
-                <div class="social-icons abouts colourful"><i class="fa-brands fa-facebook-f"></i></div>
-                <div class="social-icons abouts colourful"><i class="fa-brands fa-linkedin-in"></i></div>
-            </div>
+    <hr>
+    <!--Portfolio section-->
+    <div id="portfolio" class="portfolio wrap">
+        <div class="portfolio-header">
+            <p>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</p>
+            <h2>My Portfolio</h2>
         </div>
-        <div class="contact-form abouts">
-            <form action="#">
-                <div class="inputs name-number">
-                    <label for="name">Your Name</label>
-                    <input id="name" type="text">
+        <div class="portfolio-boxes abouts"><i class="fa-solid fa-plus"></i> add projects</div>
+        <div class="portfolio-boxes abouts"><i class="fa-solid fa-plus"></i> add projects</div>
+        <div class="portfolio-boxes abouts"><i class="fa-solid fa-plus"></i> add projects</div>
+        <div class="portfolio-boxes abouts"><i class="fa-solid fa-plus"></i> add projects</div>
+        <div class="portfolio-boxes abouts"><i class="fa-solid fa-plus"></i> add projects</div>
+        <div class="portfolio-boxes abouts"><i class="fa-solid fa-plus"></i> add projects</div>
+    </div>
+    <hr>
+    <!--Contact Section-->
+    <div class="contact" id="contact-me">
+        <p>Contact</p>
+        <h2>Contact With Me</h2>
+        <div class="contact-all wrap">
+            <div class="contact-left abouts">
+                <div class="contact-image">
+                    <div class="c-img img-zoom"></div>
                 </div>
-                <div class="inputs name-number">
-                     <label for="number">Phone Number</label>
-                     <input id="number" type="text">
+                <div class="title-area">
+                    <h4 class="title">Nevine Acotanza</h4>
+                    <p>Chief Operating Officer</p>
                 </div>
-                <div class="inputs">
-                    <label for="email">Email</label>
-                    <input type="email" id="email">
+                <div class="description">
+                    <p>I am available for freelance work. Connect with me via and call in to my account.</p>
+                    <p>Phone: <a href="#">+012 345 678 90</a></p>
+                    <p>Email: <a href="#">admin@example.com</a></p>
                 </div>
-                <div class="inputs">
-                    <label for="subject">Subject</label>
-                    <input id="subject" type="text">
+                <p>FIND WITH ME</p>
+                <div class="social-area">
+                    <div class="social-icons abouts colourful"><i class="fa-brands fa-twitter"></i></div>
+                    <div class="social-icons abouts colourful"><i class="fa-brands fa-facebook-f"></i></div>
+                    <div class="social-icons abouts colourful"><i class="fa-brands fa-linkedin-in"></i></div>
                 </div>
-                <div class="inputs">
-                    <label for="message">Your Message</label>
-                    <textarea id="message" cols="30" rows="10"></textarea>
-                </div>
-                <input class="send-input abouts colourful" type="button" value="Send Message">
-                
-               
-            </form>
+            </div>
+            <div class="contact-form abouts">
+                <form class="wrap" action="#">
+                    <div class="inputs name-number">
+                        <label for="name">Your Name</label>
+                        <input id="name" type="text">
+                    </div>
+                    <div class="inputs name-number">
+                        <label for="number">Phone Number</label>
+                        <input id="number" type="text">
+                    </div>
+                    <div class="inputs">
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="inputs">
+                        <label for="subject">Subject</label>
+                        <input id="subject" type="text">
+                    </div>
+                    <div class="inputs">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <input class="send-input abouts colourful" type="button" value="Send Message">
+
+
+                </form>
+            </div>
         </div>
     </div>
-</div>
-                                      <hr>
+    <hr>
 
-<footer><p>© 2023. This site created by Vahid, Aydan, Elshen and Cavid</p></footer>
+    <footer>
+        <p>© 2023. This site created by Vahid, Aydan, Elshen and Cavid</p>
+    </footer>
 </body>
 
 </html>
