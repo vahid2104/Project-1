@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
 }
 hr{
     width: 85%;
@@ -196,326 +197,325 @@ a:hover{
 }
 
 /* Resume Section Css Start */
-/* #skills,#experience,#interview{
-    display: none;
-  } */
-  .container{
-    width: 1320px;
-    margin: auto;
-    margin-bottom: 5%;
-  }
-  .myResume{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 66px;
-    padding-top: 60px;
-    
-  }
-  .myResume .resume_header{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  .myResume .resume_header span{
-    letter-spacing: 2px;
-    display: block;
-    line-height: 14px;
-    font-weight: 500;
-    color: #f9004d;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-  }
-  .myResume .resume_header h2{
-    font-size: 60px;
-    font-weight: 700;
-    color: #3c3e41;
-  }
-  .myResume .resume_main {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    background: linear-gradient(145deg, #e2e8ec, #ffffff);
-    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
-  }
-  .myResume .resume_main div {
-    width: 330px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .myResume .resume_main a{
-    padding: 35px 10px;
-    display: block;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-    color: #1e2125;
-    font-size: 18px;
-    font-weight: 500;
-    
-  }
+.education_footer.experience,.education_footer.interview,.education_footer.professionalSkills{
+  display: none;
+}
+.container{
+  width: 1320px;
+  margin: auto;
+}
+.myResume{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 66px;
+  padding-top: 60px;
+}
+.myResume .resume_header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.myResume .resume_header span{
+  letter-spacing: 2px;
+  display: block;
+  line-height: 14px;
+  font-weight: 500;
+  color: #f9004d;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.myResume .resume_header h2{
+  font-size: 60px;
+  font-weight: 700;
+  color: #3c3e41;
+}
+.myResume .resume_main {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;;
+}
+.myResume .resume_main div {
+  width: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.myResume .resume_main a{
+  padding: 35px 10px;
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: #1e2125;
+  font-size: 18px;
+  font-weight: 500;
   
-  .myResume .resume_main a.active{
-    color: #ff014f;
-    border-radius: 10px; 
-    background: linear-gradient(145deg, #e2e8ec,#ffffff);
-    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
-  }
-  .myResume .resume_main a:hover{
-    color: #ff014f;
-    border-radius: 10px; 
-    background: linear-gradient(145deg, #e2e8ec, #ffffff);
-    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
-  }
-  
-  .education_footer{
-    width: 100%;
-    margin-top: 40px;
-    display: flex;
-    justify-content: left;
-  }
-  
-  .education_footer .education_footer_left,.education_footer_right{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-  }
-  
-  .education_footer_left_header,.education_footer_right_header{
-    margin-bottom: 50px;
-  }
-  .education_footer .education_footer_left .education_footer_left_header span,.education_footer_right_header span{
-    letter-spacing: 2px;
-    display: block;
-    line-height: 14px;
-    font-weight: 500;
-    color: #f9004d;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-  }
-  .education_footer .education_footer_left .education_footer_left_header h4,.education_footer_right .education_footer_right_header h4{
-    color: #1e2125;
-    font-size: 36px;
-    font-weight: 700;
-  }
-  
-  .education_footer_left_cards_item,.education_footer_right_cards_item{
-    width: 75%;
-    height: 200px;
-    background: linear-gradient(145deg, #e2e8ec, #ffffff);
-    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
-    padding: 45px 40px;
-    border-radius: 6px;
-    transition: all 0.8s;
-    margin-top: 50px;
-  }
-  
-  .education_footer_right_cards_item{
-    justify-content: flex-end;
-    
-  }
-  .education_footer_left_cards_item:hover .education_footer_left_cards_item_top div span{
-    color: #ffffff;
-  }
-  .education_footer_left_cards_item:hover {
-    background: linear-gradient(145deg,#6a67ce,#fc636b);
-  }
-  .education_footer_left_cards_item:hover .education_footer_left_cards_item_bottom{
-    color: #ffffff;
-  }
-  .education_footer_left_cards_item:hover .education_footer_left_cards_item_top div h4{
-    color: #ffffff;
-  }
-  .education_footer_left_cards_item:hover .education_footer_left_cards_item_top div:last-child{
-    color: #ffffff;
-    background-color: #ff014f;
-    box-shadow: none;
-  }
-  .education_footer_left_cards_item_top,.education_footer_right_cards_item_top{
-    height: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-    padding-bottom: 20px;
-    transition: all 0.4s;
-  
-  }
-  .education_footer_left_cards_item_top div h4,.education_footer .education_footer_right .education_footer_right_cards_item_top div h4{
-    color: #3c3e41;
-    font-size: 24px;
-    line-height: 39px;
-    margin-bottom: 7px;
-    font-weight: 500;
-    font-family: "Poppins", sans-serif;
-    transition: all 0.4s;
-  
-  }
-  .education_footer_left_cards_item_top div span,.education_footer_right_cards_item_top div span{
-    color: #3c3e41;
-    font-size: 14px;
-    transition: all 0.4s;
-  
-  }
-  .education_footer_left_cards_item_top div:last-child{
-    height: 36px;
-    color: #ff014f;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 15px;
-    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
-    font-size: 14px;
-    border-radius: 6px;
-    background-color: #ffffff;
-    font-weight: 500;
-    font-family: "Poppins",sans-serif;
-    transition: all 0.4s;
-  }
-  
-  .education_footer_left_cards_item_bottom,.education_footer_right_cards_item_bottom{
-    height: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #3c3e41;
-    font-size: 18px;
-    line-height: 28px;
-    font-family: "Poppins",sans-serif;
-    transition: all 0.4s;
-  }
-  .footer .footer_right span{
-    letter-spacing: 2px;
-    display: block;
-    line-height: 14px;
-    font-weight: 500;
-     color: #f9004d; 
-    text-transform: uppercase;
-    margin-bottom: 20px;
-  }
-  .education_footer .education_footer_right h4{
-    color: #1e2125;
-    font-size: 36px;
-    font-weight: 700;
-  }
-  .education_footer_right_cards_item_top div:last-child{
-    height: 36px;
-    color: #ff014f;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 15px;
-    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
-    font-size: 14px;
-    border-radius: 6px;
-    background-color: #ffffff;
-    font-weight: 500;
-    font-family: "Poppins",sans-serif;
-    transition: all 0.4s;
-  }
-  .education_footer_right_cards_item:hover .education_footer_right_cards_item_top div span{
-    color: #ffffff;
-  }
-  .education_footer_right_cards_item:hover {
-    background: linear-gradient(145deg,#6a67ce,#fc636b);
-  }
-  .education_footer_right_cards_item:hover .education_footer_right_cards_item_bottom{
-    color: #ffffff;
-  }
-  .education_footer_right_cards_item:hover .education_footer_right_cards_item_top div h4{
-    color: #ffffff;
-  }
-  .education_footer_right_cards_item:hover .education_footer_right_cards_item_top div:last-child{
-    color: #ffffff;
-    background-color: #ff014f;
-    box-shadow: none;
-  }
-  .skillheader{
-    display: flex;
-    justify-content: space-between;
-  }
-  .skillheader span{
-      margin-bottom: 15px;
-      top: -22px;
-      font-weight: 400;
-      color: grey;
-      font-size: 14px;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      opacity: 0.9;
-      left: inherit;
-      width: min-content;
-  }
-  .education_footer_left_cards_skill,.education_footer_right_cards_skill{
-    width: 584px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .education_footer_left_cards_skill h6,.education_footer_right_cards_skill h6{
-    box-sizing: border-box;
+}
+
+.myResume .resume_main div a.active{
+  color: #ff014f;
+  border-radius: 10px; 
+  background: linear-gradient(145deg, #e2e8ec,#ffffff);
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+}
+.myResume .resume_main a:hover{
+  color: #ff014f;
+  border-radius: 10px; 
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+}
+
+.education_footer{
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: left;
+  margin-bottom: 5%;
+}
+.education_footer_right{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.education_footer .education_footer_left,.education_footer_right{
+  width: 50%;
+}
+
+.education_footer_right_header{
+  justify-content: start;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: 0;
+  padding-left: 76px;
+}
+.education_footer .education_footer_left .education_footer_left_header span,.education_footer_right_header span{
+  letter-spacing: 2px;
+  display: block;
+  line-height: 14px;
+  font-weight: 500;
+  color: #f9004d;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.education_footer .education_footer_left .education_footer_left_header h4,.education_footer_right .education_footer_right_header h4{
+  color: #1e2125;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.education_footer_left_cards_item,.education_footer_right_cards_item{
+  width: 85%;
+  height: 250px;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  padding: 45px 40px;
+  border-radius: 6px;
+  transition: all 0.8s;
+  margin-top: 50px;
+}
+.education_footer_left_cards_item:hover .education_footer_left_cards_item_top div span{
+  color: #ffffff;
+}
+.education_footer_left_cards_item:hover {
+  background: linear-gradient(145deg,#6a67ce,#fc636b);
+}
+.education_footer_left_cards_item:hover .education_footer_left_cards_item_bottom{
+  color: #ffffff;
+}
+.education_footer_left_cards_item:hover .education_footer_left_cards_item_top div h4{
+  color: #ffffff;
+}
+.education_footer_left_cards_item:hover .education_footer_left_cards_item_top div:last-child{
+  color: #ffffff;
+  background-color: #ff014f;
+  box-shadow: none;
+}
+.education_footer_left_cards_item_top,.education_footer_right_cards_item_top{
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding-bottom: 20px;
+  transition: all 0.4s;
+
+}
+.education_footer_left_cards_item_top div h4,.education_footer .education_footer_right .education_footer_right_cards_item_top div h4{
+  color: #3c3e41;
+  font-size: 24px;
+  line-height: 39px;
+  margin-bottom: 7px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.4s;
+
+}
+.education_footer_left_cards_item_top div span,.education_footer_right_cards_item_top div span{
+  color: #3c3e41;
+  font-size: 14px;
+  transition: all 0.4s;
+
+}
+.education_footer_left_cards_item_top div:last-child{
+  height: 36px;
+  color: #ff014f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 15px;
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  font-size: 14px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  font-weight: 500;
+  font-family: "Poppins",sans-serif;
+  transition: all 0.4s;
+}
+
+.education_footer_left_cards_item_bottom,.education_footer_right_cards_item_bottom{
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #3c3e41;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: "Poppins",sans-serif;
+  transition: all 0.4s;
+}
+.footer .footer_right span{
+  letter-spacing: 2px;
+  display: block;
+  line-height: 14px;
+  font-weight: 500;
+   color: #f9004d; 
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.education_footer .education_footer_right h4{
+  color: #1e2125;
+  font-size: 36px;
+  font-weight: 700;
+}
+.education_footer_right_cards_item_top div:last-child{
+  height: 36px;
+  color: #ff014f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 15px;
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  font-size: 14px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  font-weight: 500;
+  font-family: "Poppins",sans-serif;
+  transition: all 0.4s;
+}
+.education_footer_right_cards_item:hover .education_footer_right_cards_item_top div span{
+  color: #ffffff;
+}
+.education_footer_right_cards_item:hover {
+  background: linear-gradient(145deg,#6a67ce,#fc636b);
+}
+.education_footer_right_cards_item:hover .education_footer_right_cards_item_bottom{
+  color: #ffffff;
+}
+.education_footer_right_cards_item:hover .education_footer_right_cards_item_top div h4{
+  color: #ffffff;
+}
+.education_footer_right_cards_item:hover .education_footer_right_cards_item_top div:last-child{
+  color: #ffffff;
+  background-color: #ff014f;
+  box-shadow: none;
+}
+.skillheader{
+  display: flex;
+  justify-content: space-between;
+}
+.skillheader span{
     margin-bottom: 15px;
     top: -22px;
-      font-weight: 400;
-      color: grey;
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      opacity: 0.9;
-      left: inherit;
-      
-   
-  }
-  .education_footer_left_cards_skill_bottom,.education_footer_right_cards_skill_bottom{
-     height: 13px;
-      overflow: visible;
-      font-size: 14px;
-      border-radius: 10px;
-      padding: 3px;
-      background: #dce1e4;
-      box-shadow: none;
-  }
-  
-  .education_footer_right_cards_skill_html,.education_footer_right_cards_skill_css,.education_footer_right_cards_skill_javascript,.education_footer_right_cards_skill_software,.education_footer_right_cards_skill_plugin,.education_footer_left_cards_skill_adobeills,.education_footer_left_cards_skill_adobexd,.education_footer_left_cards_skill_design,.education_footer_left_cards_skill_photoshop,.education_footer_left_cards_skill_figma{
-    background:linear-gradient(90deg,white,pink,#f9004d);
+    font-weight: 400;
+    color: grey;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 0.9;
+    left: inherit;
+    width: min-content;
+}
+.education_footer_left_cards_skill,.education_footer_right_cards_skill{
+  width: 584px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.education_footer_left_cards_skill h6,.education_footer_right_cards_skill h6{
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  top: -22px;
+  font-weight: 400;
+  color: grey;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: 0.9;
+  left: inherit;
+    
+ 
+}
+.education_footer_left_cards_skill_bottom,.education_footer_right_cards_skill_bottom{
+   height: 9px;
+    overflow: visible;
+    font-size: 14px;
     border-radius: 10px;
-    height: 7px;
-    visibility: visible;
-    transition:  0.4s linear;
-  }
-  .education_footer_right_cards_skill_javascript{ 
-    width: 0%;
-  }
-  .education_footer_right_cards_skill_html{ 
-    width: 0%;
-  }
-  .education_footer_right_cards_skill_css{
-    width: 0%;
-  }
-  .education_footer_right_cards_skill_software{
-    width: 0%;
-  }
-  .education_footer_right_cards_skill_plugin{
-    width: 0%;
-  }
-  .education_footer_left_cards_skill_photoshop{
-    width: 0%;
-  }
-  .education_footer_left_cards_skill_adobexd{
-    width: 0%;
-  }
-  .education_footer_left_cards_skill_adobeills{
-    width: 0%;
-  }
-  .education_footer_left_cards_skill_design{
-    width: 0%;
-  }
-  .education_footer_left_cards_skill_figma{
-    width: 0%;
-  }
+    padding: 3px;
+    background: #dce1e4;
+    box-shadow: none;
+}
+.education_footer_right_cards_skill_html,.education_footer_right_cards_skill_css,.education_footer_right_cards_skill_javascript,.education_footer_right_cards_skill_software,.education_footer_right_cards_skill_plugin,.education_footer_left_cards_skill_adobeills,.education_footer_left_cards_skill_adobexd,.education_footer_left_cards_skill_design,.education_footer_left_cards_skill_photoshop,.education_footer_left_cards_skill_figma{
+  background:linear-gradient(90deg,white,pink,#f9004d);
+  border-radius: 10px;
+  height: 7px;
+  visibility: visible;
+  transition:  0.4s linear;
+}
+.education_footer_right_cards_skill_javascript{ 
+  width: 0%;
+}
+.education_footer_right_cards_skill_html{ 
+  width: 0%;
+}
+.education_footer_right_cards_skill_css{
+  width: 0%;
+}
+.education_footer_right_cards_skill_software{
+  width: 0%;
+}
+.education_footer_right_cards_skill_plugin{
+  width: 0%;
+}
+.education_footer_left_cards_skill_photoshop{
+  width: 0%;
+}
+.education_footer_left_cards_skill_adobexd{
+  width: 0%;
+}
+.education_footer_left_cards_skill_adobeills{
+  width: 0%;
+}
+.education_footer_left_cards_skill_design{
+  width: 0%;
+}
+.education_footer_left_cards_skill_figma{
+width:0%;
+}
 /* Resume Section Css End */
 
 /*Portfolio Section*/
