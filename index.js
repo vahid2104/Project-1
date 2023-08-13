@@ -8,16 +8,6 @@ $('.resume_main_education').click(function(){
     $(".experience").css("display","none");
     $(".interview").css("display","none");
 })
-$('.resume_main_education').click(function(){
-    $('.resume_main_education').addClass('active')
-    $('.resume_main_professional').removeClass('active')
-    $('.resume_main_experience').removeClass('active')
-    $('.resume_main_interview').removeClass('active')
-    $(".professionalSkills").css("display","none");
-    $(".education").css("display","flex");
-    $(".experience").css("display","none");
-    $(".interview").css("display","none");
-})
 $('.resume_main_professional').click(function(){
     $('.education_footer_left_cards_skill_figma').css("width",'0%'),
      $('.education_footer_left_cards_skill_photoshop').css("width",'0%'),
